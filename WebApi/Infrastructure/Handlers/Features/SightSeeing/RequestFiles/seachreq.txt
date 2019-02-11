@@ -1,0 +1,36 @@
+﻿{
+  "SightseeingSearchRequest": {
+    "SupplierCode": [
+      "GTA001"
+    ],
+    "SupplierCredentials": {
+      "ClientID": "2144",
+      "EmailAddress": "XML.ONEVIEWITSOLUTIONS@AIRBORNETRAVEL.COM",
+      "Password": "PASS",
+      "Language": "en",
+      "InterfaceUrl": "https://interface.demo.gta-travel.com/wbsapi/RequestListenerServlet"
+    },
+    "RequestMode": {
+      "Currency": "AED",
+      "Country": "AE",
+      "Mode": "SYNCHRONOUS"
+    },
+    "Destination": {
+      "DestinationType": "city",
+      "DestinationCode": "PEK"
+    },
+    "Travellers": {
+      "ADT": 1,
+      "CHD": 0,
+      "INF": 0,
+      "ChildrenAge": []
+    },
+    "TourDate": "12-04-2018",
+    "Access_token": "",
+    "SightseeingType": [],
+    "SightseeingCategory": [],
+    "IsChangeConditions": true,
+    "IsRecommended": false,
+    "IsImmediateConfirmation": false
+  }
+}

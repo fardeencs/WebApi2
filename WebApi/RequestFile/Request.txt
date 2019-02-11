@@ -1,0 +1,35 @@
+﻿ {
+  "CommonRequestSearch": {
+    "AgencyCode": "ONV",
+    "NumberOfRec": "250",
+    "NumberOfUnits": 1,
+    "TypeOfUnit": "PX",
+    "SupplierCode": "AMA001",
+    "isFiltered": false
+  },
+  "OriginDestinationInformation": [
+    {
+      "DepartureDate": "29-12-2017",
+      "OriginLocation": "DXB",
+      "DestinationLocation": "COK",
+      "RadiusInformation": {
+        "_FromValue": "0",
+        "_ToValue": "250"
+      }
+    }
+  ],
+  "Currency": "AED",
+  "PreferredAirline": "EY",
+  "NonStop": "True",
+  "cabin": "Y",
+  "IsRefundable": "true",
+  "Maxstopquantity": "All",
+  "Triptype": "O",
+  "PreferenceLevel": "Preferred",
+  "Target": "Test",
+  "PassengerTypeQuantity": {
+    "ADT": 1,
+    "CHD": 0,
+    "INF": 0
+  }
+}

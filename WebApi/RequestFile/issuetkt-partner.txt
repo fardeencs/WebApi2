@@ -1,0 +1,46 @@
+{
+  "ticketCreateTSTFromPricing": {
+    "AgencyCode": "",
+    "SupplierCode": "",
+    "FareSourceCode": "MTAwMDQzJkkxSkQmMUImNzRlMjg5MjAtNWVlZi00ZWRlLThmMDItNDgxMjFjM2ZmNjQwJjNKNEcm",
+    "SessionId": "76b5e4e3-867c-49c3-b769-5604febaec93",
+    "Target": "Production",
+    "UniqueID": "MF02763117",
+    "BookingRefID": null,
+    "UserID": null
+  },
+  "SupplierAgencyDetails": [
+    {
+      "AgencyID": 85,
+      "SupplierId": 0,
+      "BaseUrl": null,
+      "RequestUrl": null,
+      "SupplierName": "Mistyfly",
+      "SupplierCode": "MIS001",
+      "AccountNumber": "MCN001438",
+      "UserName": "ONEV_XML",
+      "Password": "ONEV2017_xml",
+      "Status": "T"
+    }
+  ],
+  "psaList": [
+    {
+      "itemReference": {
+        "referenceType": "TST",
+        "uniqueReference": "1"
+      }
+    },
+    {
+      "itemReference": {
+        "referenceType": "TST",
+        "uniqueReference": "2"
+      }
+    },
+    {
+      "itemReference": {
+        "referenceType": "TST",
+        "uniqueReference": "3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+﻿{
+  "bookFlightEntity": {
+    "BookFlight": {
+      "AgencyCode": "ONV",
+      "BookingId": "12345",
+      "SupplierCode": "MIS001",
+      "Faresourcecode": "MTAwMDQzJkkxSkQmMUImNzRlMjg5MjAtNWVlZi00ZWRlLThmMDItNDgxMjFjM2ZmNjQwJjNKNEcm",
+      "SessionId": "76b5e4e3-867c-49c3-b769-5604febaec93",
+      "Target": "Test",
+      "Fdetails": {
+        "FlightId": "_4-171121110527-58-7196-4995|_4-171121110527-58-6340-4125",
+        "ClientIP": "83.110.93.242",
+        "ConfirmedPrice": "183.98",
+        "ConfirmedCurrency": "AED"
+      },
+      "CustomerInfo": {
+        "Sex": "MALE",
+        "FirstName": "Hassan",
+        "LastName": "El Diasty",
+        "CompanyName": "Albadie Travel Agency",
+        "Street": "Test Street",
+        "HouseNo": "111",
+        "Zip": "12345",
+        "City": "Test City",
+        "CountryCode": "AE",
+        "PhoneCountry": "1",
+        "PhoneArea": "234",
+        "PhoneNumber": "567890",
+        "Email": "eldiastyh@albadietravel.com"
+      },
+      "PaymentInfo": {
+        "PaymentCode": "VISA",
+        "Holder": "TEST TESTER",
+        "Number": "4111111111111111",
+        "CVC": "737",
+        "Expiry": "08/18"
+      },
+      "TravelerInfo": [
+        {
+          "PassengerTypeQuantity": "ADT",
+          "Gender": "MALE",
+          "GivenName": "Hala",
+          "NamePrefix": "Mr.",
+          "Surname": "Haseeb",
+          "quantity": "1",
+          "BirthDate": "10-12-1987",
+          "_DocType": "Passport",
+          "_DocID": "J422324324",
+          "_DocIssueCountry": "AD",
+          "_ExpireDate": "10-10-2025",
+          "_IssuanceDate": "10-12-2014",
+          "_Nationality": "AND"
+        }
+      ],
+      "FLLegGroup": [
+        {
+          "elapsedtime": "",
+          "from": "SHJ",
+          "to": "COK",
+          "segments": [
+            {
+              "FareBasis": "",
+              "DepartureDate": "17-01-2018",
+              "DepartureTime": "1205",
+              "ArrivalDate": "17-01-2018",
+              "ArrivalTime": "0730",
+              "DepartureFrom": "SHJ",
+              "DepartureTo": "MAA",
+              "MarketingCompany": "",
+              "OperatingCompany": "",
+              "FlightNumber": "968",
+              "BookingClass": "M",
+              "terminalTo": "NA",
+              "terminalFrom": "NA",
+              "flightequip": "32A"
+            },
+            {
+              "FareBasis": "",
+              "DepartureDate": "17-01-2018",
+              "DepartureTime": "0900",
+              "ArrivalDate": "17-01-2018",
+              "ArrivalTime": "1025",
+              "DepartureFrom": "MAA",
+              "DepartureTo": "COK",
+              "MarketingCompany": "",
+              "OperatingCompany": "",
+              "FlightNumber": "509",
+              "BookingClass": "M",
+              "terminalTo": "NA",
+              "terminalFrom": "NA",
+              "flightequip": "319"
+            }
+          ]
+        }
+      ],
+      "AreaCityCode": "+43",
+      "PhoneNumber": "9497766963",
+      "Email": "shabeerm@oneviewit.com",
+      "AddressLine": [
+        "Oneview IT Solutions, UAE",
+        "Kochi"
+      ],
+      "CityName": "Sharjah",
+      "CityCode": "AE",
+      "PostalCode": "112123",
+      "ADT": 1,
+      "CHD": 0,
+      "INF": 0
+    }
+  },
+  "totalfaregroup": {
+    "totalBaseNet": "148.59",
+    "totalTaxNet": "35.39",
+    "markupTypeID": "2",
+    "netCurrency": "USD",
+    "markupValue": "0",
+    "markupCurrency": "USD",
+    "sellAmount": "183.98",
+    "sellCurrency": "USD",
+    "additionalServiceFee": "0",
+    "cancellationAmount": "0",
+    "cancellationCurrency": "USD",
+    "paidDate": "27-12-2017",
+    "paidAmount": "183.98",
+    "paymentTypeID": "1"
+  },
+  "airBagDetails": [
+    {
+      "paxTyp": "NA",
+      "cabinBaggageQuantity": "0",
+      "cabinBaggageUnit": "NA",
+      "checkinBaggageQuantity": "0",
+      "checkinBaggageUnit": "",
+      "fromSeg": "SHJ",
+      "toseg": "MAA"
+    },
+    {
+      "paxTyp": "NA",
+      "cabinBaggageQuantity": "0",
+      "cabinBaggageUnit": "NA",
+      "checkinBaggageQuantity": "0",
+      "checkinBaggageUnit": "",
+      "fromSeg": "MAA",
+      "toseg": "COK"
+    }
+  ],
+  "fareruleseg": [
+    {
+      "fareRule": "nil",
+      "fareRef": "",
+      "segment": "NA-NA",
+      "filingAirline": "NA",
+      "marketingAirline": "NA"
+    }
+  ],
+  "costBreakuppax": [
+    {
+      "paxType": "ADT",
+      "paxtotalBaseNet": "148.59",
+      "paxtotalTaxNet": "0",
+      "paxmarkupTypeID": "2",
+      "paxnetCurrency": "USD",
+      "paxmarkupValue": "0",
+      "paxmarkupCurrency": "USD",
+      "paxsellAmount": "183.98",
+      "paxsellCurrency": "USD",
+      "paxadditionalServiceFee": "0",
+      "paxcancellationAmount": "0",
+      "paxcancellationCurrency": "USD",
+      "paxpaidAmount": "183.98",
+      "totalPaxQuantity": "1"
+    }
+  ]
+}

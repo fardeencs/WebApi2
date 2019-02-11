@@ -1,0 +1,88 @@
+{
+  "CommonRequestFarePricer": {
+    "Body": {
+      "AirRevalidate": {
+        "ARAgencyCode": "ONV",
+        "ARSupplierCode": "MIS001",
+        "FareSourceCode": "MTAwMDQzJkkxSkQmMUImNzRlMjg5MjAtNWVlZi00ZWRlLThmMDItNDgxMjFjM2ZmNjQwJjNKNEcm",
+        "SessionId": "76b5e4e3-867c-49c3-b769-5604febaec93",
+        "Target": "Production",
+        "ADT": 1,
+        "CHD": 0,
+        "INF": 0,
+        "segmentGroup": [
+          {
+            "segmentInformation": {
+              "flightDate": {
+                "departureDate": "170118",
+                "departureTime": "1205",
+                "arrivalDate": "170118",
+                "arrivalTime": "0715"
+              },
+              "boardPointDetails": {
+                "trueLocationId": "SHJ"
+              },
+              "offpointDetails": {
+                "trueLocationId": "MAA"
+              },
+              "companyDetails": {
+                "marketingCompany": "AI",
+                "operatingCompany": "AI"
+              },
+              "flightIdentification": {
+                "flightNumber": "968",
+                "bookingClass": "M"
+              },
+              "flightTypeDetails": {
+                "flightIndicator": "1",
+                "itemNumber": 1
+              }
+            }
+          },
+          {
+            "segmentInformation": {
+              "flightDate": {
+                "departureDate": "170118",
+                "departureTime": "0900",
+                "arrivalDate": "170118",
+                "arrivalTime": "1015"
+              },
+              "boardPointDetails": {
+                "trueLocationId": "MAA"
+              },
+              "offpointDetails": {
+                "trueLocationId": "COK"
+              },
+              "companyDetails": {
+                "marketingCompany": "AI",
+                "operatingCompany": "AI"
+              },
+              "flightIdentification": {
+                "flightNumber": "509",
+                "bookingClass": "M"
+              },
+              "flightTypeDetails": {
+                "flightIndicator": "1",
+                "itemNumber": 2
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "SupplierAgencyDetails": [
+    {
+      "AgencyID": 85,
+      "SupplierId": 0,
+      "BaseUrl": null,
+      "RequestUrl": null,
+      "SupplierName": "Mistyfly",
+      "SupplierCode": "MIS001",
+      "AccountNumber": "MCN001438",
+      "UserName": "ONEV_XML",
+      "Password": "ONEV2017_xml",
+      "Status": "T"
+    }
+  ]
+}

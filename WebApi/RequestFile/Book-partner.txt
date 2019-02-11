@@ -1,0 +1,109 @@
+{
+ "BookFlight": {
+  "AgencyCode": "ONV",
+  "BookingId": "3707",
+  "SupplierCode": "",
+  "SupplierAgencyDetails": [
+   {
+    "AgencyID": 85,
+    "SupplierId": 0,
+    "BaseUrl": null,
+    "RequestUrl": null,
+    "SupplierName": "Mistyfly",
+    "SupplierCode": "MIS001",
+    "AccountNumber": "MCN001438",
+    "UserName": "ONEV_XML",
+    "Password": "ONEV2017_xml",
+    "Status": "T"
+   }
+  ],
+  "Faresourcecode": "MTAwMDQzJkkxSkQmMUImNzRlMjg5MjAtNWVlZi00ZWRlLThmMDItNDgxMjFjM2ZmNjQwJjNKNEcm",
+  "SessionId": "76b5e4e3-867c-49c3-b769-5604febaec93",
+  "Target": "Test",
+  "Fdetails": {
+   "FlightId": "_4-171121110527-58-7196-4995|_4-171121110527-58-6340-4125",
+   "ClientIP": "83.110.93.242",
+   "ConfirmedPrice": "183.98",
+   "ConfirmedCurrency": "AED"
+  },
+  "CustomerInfo": {
+   "Sex": "MALE",
+   "FirstName": "Hassan",
+   "LastName": "El Diasty",
+   "CompanyName": "Albadie Travel Agency",
+   "Street": "Test Street",
+   "HouseNo": "111",
+   "Zip": "12345",
+   "City": "Test City",
+   "CountryCode": "AE",
+   "PhoneCountry": "1",
+   "PhoneArea": "234",
+   "PhoneNumber": "567890",
+   "Email": "eldiastyh@albadietravel.com"
+  },
+  "PaymentInfo": {
+   "PaymentCode": "VISA",
+   "Holder": "TEST TESTER",
+   "Number": "4111111111111111",
+   "CVC": "737",
+   "Expiry": "08/18"
+  },
+  "TravelerInfo": [
+   {
+    "PassengerTypeQuantity": "ADT",
+    "Gender": "MALE",
+    "GivenName": "Hala",
+    "NamePrefix": "Mr.",
+    "Surname": "Haseeb",
+    "quantity": "1",
+    "BirthDate": "10-12-1987",
+    "_DocType": "Passport",
+    "_DocID": "J422324324",
+    "_IssuanceDate": "10-12-2014",
+    "_DocIssueCountry": "IND",
+    "_ExpireDate": "10-10-2025",
+    "_IssuanceCity": "IND",
+                  "_Nationality":"IND"
+   }
+  ],
+  "FLLegGroup": [
+   {
+    "ElapsedTime": "",
+    "From": "SHJ",
+    "To": "COK",
+    "Segments": [
+     {
+      "FareBasis": "",
+      "DepartureDate": "31-12-2017",
+      "DepartureTime": "1335",
+      "ArrivalDate": "31-12-2017",
+      "ArrivalTime": "1900",
+      "DepartureFrom": "DXB",
+      "DepartureTo": "COK",
+      "MarketingCompany": "AI",
+      "OperatingCompany": "AI",
+      "FlightNumber": "934",
+      "BookingClass": "M",
+      "TerminalTo": "1",
+      "TerminalFrom": "3",
+      "Flightequip": "788"
+     }
+    
+    ]
+   }
+  ],
+  "AreaCityCode": "+43",
+  "PhoneNumber": "9497766963",
+  "Email": "shabeerm@oneviewit.com",
+  "AddressLine": [
+   "Oneview IT Solutions, UAE",
+   "Kochi"
+  ],
+  "CityName": "Sharjah",
+  "CityCode": "AE",
+  "PostalCode": "112123",
+  "ADT": 1,
+  "CHD": 0,
+  "INF": 0
+ }
+}

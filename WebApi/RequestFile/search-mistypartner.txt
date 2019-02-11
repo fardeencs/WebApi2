@@ -1,0 +1,48 @@
+{
+  "CommonRequestSearch": {
+    "numberOfUnits": 1,
+    "typeOfUnit": "PX",
+    "AgencyCode": "ONV",
+    "SupplierCode": "",
+    "IsFiltered": false
+  },
+  "OriginDestinationInformation": [
+    {
+      "DepartureDate": "29-12-2017",
+      "OriginLocation": "DXB",
+      "DestinationLocation": "COK",
+      "RadiusInformation": {
+        "_FromValue": "0",
+        "_ToValue": "250"
+      }
+    }
+  ],
+  "SupplierAgencyDetails": [
+    {
+      "AgencyID": 85,
+      "SupplierId": 0,
+      "BaseUrl": null,
+      "RequestUrl": null,
+      "SupplierName": "Mistyfly",
+      "SupplierCode": "MIS001",
+      "AccountNumber": "MCN001438",
+      "UserName": "ONEV_XML",
+      "Password": "ONEV2017_xml",
+      "Status": "T"
+    }
+  ],
+  "Currency": "AED",
+  "PreferredAirline": "EY",
+  "NonStop": "True",
+  "cabin": "Y",
+  "IsRefundable": "true",
+  "Maxstopquantity": "All",
+  "Triptype": "O",
+  "PreferenceLevel": "Preferred",
+  "Target": "Test",
+  "PassengerTypeQuantity": {
+    "ADT": 1,
+    "CHD": 0,
+    "INF": 0
+  }
+}
